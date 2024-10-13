@@ -14,9 +14,11 @@ header{
    
     box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2); 
 }
+
 .logo img {
     width: 120px;
 }
+
 
 nav {
     position: relative;
@@ -43,10 +45,11 @@ button.menu-toggle:hover {
     background-color: #555;
 }
 
-/* When menu is visible */
 ul.nav-links.show {
     display: block;
 }
+
+
 
 .container {
     width: 100%;               

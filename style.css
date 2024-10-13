@@ -17,7 +17,7 @@ header{
 .logo img {
     width: 120px;
 }
-nav ul{
+/* nav ul{
     list-style: none;
     display: flex;
     
@@ -37,14 +37,46 @@ nav ul li a {
     position: relative; 
     font-size: 30px;
     margin-left: 15px;
-}
+} */
 
-
+/* 
 nav ul li a:hover {
     color: #074bdd; 
 }
 
+ */
 
+
+/* Basic styles */
+nav {
+    position: relative;
+}
+
+ul.nav-links {
+    list-style: none;
+    display: none; /* Hidden initially */
+}
+
+ul.nav-links li {
+    margin: 5px 0;
+}
+
+button.menu-toggle {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button.menu-toggle:hover {
+    background-color: #555;
+}
+
+/* When menu is visible */
+ul.nav-links.show {
+    display: block;
+}
 
 .container {
     width: 100%;               

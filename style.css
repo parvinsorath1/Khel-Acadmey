@@ -17,37 +17,7 @@ header{
 .logo img {
     width: 120px;
 }
-/* nav ul{
-    list-style: none;
-    display: flex;
-    
-}
 
-
-nav ul li {
-    margin-left: 20px;
-    margin-top: 50px;
-    
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #0b9aec;
-    font-weight: bold;
-    position: relative; 
-    font-size: 30px;
-    margin-left: 15px;
-} */
-
-/* 
-nav ul li a:hover {
-    color: #074bdd; 
-}
-
- */
-
-
-/* Basic styles */
 nav {
     position: relative;
 }
